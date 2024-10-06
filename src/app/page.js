@@ -114,18 +114,15 @@ export default function HomePage() {
               <div>
                 <Blockquote className={styles.infoBox}>
                   <p>
-                    This app can be used to trim and/or cut audio tracks, remove audio 
-                    fragments. Fade in and fade out your music easily to make the audio
-                    harmoniously.
+                    This app can be used to trim and cut audio tracks, as well as remove unwanted audio fragments. You can easily apply fade-in and fade-out effects to make the audio smoother.
                   </p>
                   <p>
-                    It fast and easy to use. You can save the audio file in any format (codec 
-                    parameters are configured)
+                    It's fast and easy to use. You can save the audio file in any format, with customizable codec parameters.
                   </p>
                   <p>
-                    It works directly in the browser, no needs to install any software, is available
-                    for mobile devices.
+                    It works directly in your browser, with no need to install any software, and it's available for mobile devices.
                   </p>
+
                 </Blockquote>
               </div>
               <div className={styles.privacyBox}>
