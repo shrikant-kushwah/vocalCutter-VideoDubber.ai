@@ -21,7 +21,7 @@ const theme = {
 
 export const metadata = {
   title: 'Audio Cutter',
-  description: 'Free editor to trim and cut any audio file online',
+  description: 'Free online editor to trim and cut any audio file.',
 };
 
 export default function RootLayout({ children }) {
