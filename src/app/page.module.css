@@ -1,0 +1,153 @@
+/* General Styles */
+.appShell {
+  background-color: #17171E; /* Dark background for the main shell */
+}
+
+.navbar {
+  background-color: #25262B; /* Darker sidebar */
+  border-right: 1px solid #2C2E33; /* Subtle border for separation */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.navButton {
+  width: 100%;
+  height: 80px; /* Consistent button height */
+  color: #C1C2C5; /* Light text for contrast */
+  background-color: transparent; /* Transparent background */
+  transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.navButton:hover {
+  background-color: #2C2E33; /* Hover effect */
+}
+
+.activeNavButton {
+  background-color: #373A40; /* Active button highlight */
+}
+
+.stickyHeader {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  padding: 20px;
+  background-color: #17171E; /* Match app shell */
+  z-index: 1000; /* Ensure visibility */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.sticky {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for sticky effect */
+}
+
+.headerLink {
+  color: #C1C2C5; /* Light text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px; /* Standard font size */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.headerLink:hover {
+  color: #665DC3; /* Change color on hover for visibility */
+}
+
+.landing {
+  min-height: 100vh; /* Full height for landing */
+  color: #C1C2C5; /* Consistent text color */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center content */
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full height for content */
+  padding: 0 20px; /* Side padding for better spacing */
+}
+
+.hiddenInput {
+  display: none; /* Hide file input */
+}
+
+.h1 {
+  font-weight: 700; /* Bold title */
+  font-size: calc(2rem + 1vw); /* Responsive title size */
+  margin-bottom: 10px;
+  text-align: center; /* Center align title */
+}
+
+.h3 {
+  font-weight: 300; 
+  font-size: calc(1rem + .5vw); 
+  letter-spacing: 0.05rem; 
+  margin-bottom: 20px;
+  text-align: center; 
+}
+
+.browseButton {
+  background-color: transparent; 
+  border: 2px solid #665DC3; 
+  border-radius: 12px;
+  color: #C1C2C5; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.browseButton:hover {
+  background-color: #2C2E33; 
+}
+
+.howItWorks {
+  padding: 40px; 
+  text-align: left;
+  max-width: 800px; 
+  margin: 0 auto; 
+  background-color: #25262B; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.howItWorks h2 {
+  font-size: 24px; 
+  margin-bottom: 16px;
+  color: #C1C2C5;
+}
+
+.infoBox {
+  border-left: 4px solid #665DC3; 
+  padding-left: 16px;
+  margin-bottom: 24px;
+  background-color: #2C2E33; 
+  border-radius: 4px; 
+}
+
+.infoBox p {
+  margin-bottom: 16px;
+  color: #A6A7AB; 
+  line-height: 1.6; 
+}
+
+.privacyBox h4 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #C1C2C5; 
+}
+
+.privacyBox p {
+  color: #A6A7AB; 
+  line-height: 1.6; 
+}
+
+.divider {
+  border-top: 1px solid #665DC3; 
+  margin: 20px 0; 
+  width: 100%; 
+  color: #ededed; 
+}
